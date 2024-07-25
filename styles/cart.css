@@ -1,0 +1,36 @@
+.cart_screen{
+    padding: 30px 16px 0px 16px;
+    box-sizing: border-box;
+}
+
+.totaly{
+    background-color: rgb(31, 133, 31);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    left: 16px;
+    right: 16px;
+    /* width: 100%; */
+}
+
+h1 + p{
+ color: gray;
+}
+
+.detail p{
+color: gray;
+}
+
+button{
+border: 1px solid #000;
+border-radius: 12px;
+background-color: transparent;
+padding: 8px;
+display: flex;
+align-items: center;
+}

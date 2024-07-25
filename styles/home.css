@@ -1,0 +1,72 @@
+.home_screen{
+padding: 50px 16px 0px 16px;
+box-sizing: border-box;
+}
+.title h1{
+  font-size: 39px;
+}
+.title p{
+    color: gray; 
+}
+.title{
+ padding-bottom: 50px;
+}
+.title ~ p{
+    color: gray;
+}
+
+.items{
+    padding-top: 10px;
+display: grid;
+grid-template-columns: auto auto;
+gap: 16px;
+}
+
+.item_box{
+  border-radius: 16px;
+  text-align: center;
+  padding: 12px 26px;
+  background-color: #d3d3d3;
+}
+.oil{
+    background-color: #e8e882;
+}
+
+.item_box p{
+   color: rgb(39, 53, 39);
+   margin: 13px;
+}
+
+.item_box button{
+    padding: 12px 26px;
+    border: none;
+    cursor: pointer;
+}
+.milk button{
+    background-color: #619797;
+}
+.bread button{
+    background-color: #b38979;
+}
+.egg button{
+    background-color: #b9b4b4;
+}
+.oil button{ 
+    background-color: #c9c963;
+}
+
+.cart_btn{
+    cursor: pointer;
+    border: none;
+    padding: 17px;
+    border-radius: 50%;
+    background-color: rgb(42, 41, 41);
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+}
+
+.cart_btn:hover{
+    transition-duration: 0.6s;
+    background-color: rgb(61, 72, 65);
+}

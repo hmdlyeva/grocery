@@ -1,0 +1,28 @@
+{
+    "grocery":[
+        {
+            "image_path":"../../assets/milk.png",
+            "name":"Milk",
+            "price":4,
+            "bcg_color":"#7da9a9"
+        },
+        {
+            "image_path":"../../assets/bread.png",
+            "name":"bread",
+            "price":2,
+             "bcg_color":"#bd9d90"
+        },
+        {
+            "image_path":"../../assets/egg.png",
+            "name":"Egg",
+            "price":3,
+             "bcg_color":"#d3d3d3"
+        },
+        {
+            "image_path":"../../assets/oil.png",
+            "name":"Oil",
+            "price":6,
+             "bcg_color":"#e8e882"
+        }
+    ]
+}
